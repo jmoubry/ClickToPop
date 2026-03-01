@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://github.com/doombubbles/template-mod/releases/latest/download/GoldenBloon.dll">
+<a href="https://github.com/jmoubry/ClickToPop/releases/latest/download/ClickToPop.dll">
     <img align="left" alt="Icon" height="90" src="Icon.png">
     <img align="right" alt="Download" height="75" src="https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/BloonsTD6%20Mod%20Helper/Resources/DownloadBtn.png">
 </a>
@@ -13,7 +13,6 @@ Click bloons to pop them.
 
 - Left-click near a bloon during gameplay to instantly pop the closest one.
 - Uses a click radius so you do not need pixel-perfect aim.
-- Runs continuously during `InGame.Update`.
 
 ## Compatibility
 
