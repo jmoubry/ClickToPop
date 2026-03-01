@@ -1,8 +1,11 @@
-# ClickToPop
+<h1 align="center">
+<a href="https://github.com/doombubbles/template-mod/releases/latest/download/GoldenBloon.dll">
+    <img align="left" alt="Icon" height="90" src="Icon.png">
+    <img align="right" alt="Download" height="75" src="https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/BloonsTD6%20Mod%20Helper/Resources/DownloadBtn.png">
+</a>
+Click To Pop
+</h1>
 
-<p>
-  <img alt="ClickToPop icon" height="120" src="Icon.png">
-</p>
 
 Click bloons to pop them.
 
@@ -35,7 +38,5 @@ Click bloons to pop them.
 - Main logic: `ClickToPop.cs`
 - Metadata: `ModHelperData.cs`
 - Icon asset: `Icon.png`
-
-If you plan to publish this on GitHub, set `RepoOwner` and `RepoName` in `ModHelperData.cs` first.
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
