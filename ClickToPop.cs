@@ -97,11 +97,17 @@ public class ClickToPop : BloonsTD6Mod
 
         if (closestBloon == null || bestDistance > ClickPopRadiusPixels)
         {
-            ModHelper.Msg<ClickToPop>($"Click miss. Candidates: {candidates}, closest: {bestDistance:0.0}px");
+            if (ModHelperData.DebugLogging)
+            {
+                ModHelper.Msg<ClickToPop>($"Click miss. Candidates: {candidates}, closest: {bestDistance:0.0}px");
+            }
             return;
         }
 
-        ModHelper.Msg<ClickToPop>($"Popping bloon at {bestDistance:0.0}px (candidates: {candidates})");
+        if (ModHelperData.DebugLogging)
+        {
+            ModHelper.Msg<ClickToPop>($"Popping bloon at {bestDistance:0.0}px (candidates: {candidates})");
+        }
         closestBloon.Leaked();
     }
 }
